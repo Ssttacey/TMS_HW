@@ -1,0 +1,9 @@
+"id","first_name","last_name","email","phone_number","hire_date","salary","commission_pct","department_id"
+8,"Roma","Vasilev","pochta@gmail.com",NULL,"2023-12-07","3800.00",NULL,80
+1,"Artem","Simonovich","art@gmail.com",NULL,"2021-08-17","4100.00",NULL,80
+3,"Nik","Ivanov","nikita@com",NULL,"2020-09-06","8000.00","0.70",50
+5,"Liza","Zakharova","elaiza@mail.ru",NULL,"2019-04-15","9000.00","0.80",80
+7,"Kate","katova","kit-kat@gmail.com",NULL,"2021-11-21","4500.00","0.60",50
+4,"Artem","Petrov","petya@com","346.98.29","2023-02-11","3000.00",NULL,50
+2,"Alex","Sidorovich","alexcey@gmail.com","365.142.763","2018-07-20","3800.00","0.80",80
+6,"misha","medvedev","misha@mail.ru","123.456.78","2015-09-01","3000.00",NULL,50
