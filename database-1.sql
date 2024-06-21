@@ -4,7 +4,7 @@ SELECT * FROM "employees" where department_id = 50 AND salary > 4000;
 
 SELECT * FROM "employees" where first_name LIKE '%a';
 
-SELECT * FROM "employees" where commission_pct IS NOT NULL;
+SELECT * FROM "employees" where (department_id = 50 OR department_id = 80) AND commission_pct IS NOT NULL;
 
 SELECT * FROM "employees" where salary >= 8000 AND salary <= 9000;
 
