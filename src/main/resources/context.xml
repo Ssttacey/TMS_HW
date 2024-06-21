@@ -1,0 +1,29 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="searchBook" class="plannerSpring.tasks.FindTheBook">
+        <property name="doTask3" value="inner"></property>
+    </bean>
+
+    <bean id="readBook" class="plannerSpring.tasks.ReadTheBook">
+        <property name="findTheBook" ref="searchBook"></property>
+        <property name="doTask2" value="inner"></property>
+    </bean>
+
+    <bean id="feedDog" class="plannerSpring.tasks.FeedDog">
+        <property name="doTask1" value="inner"></property>
+    </bean>
+
+    <bean id="HW" class="plannerSpring.tasks.DoHW">
+        <property name="doTask" value="inner"></property>
+    </bean>
+
+    <bean id="planner" class="plannerSpring.Planner">
+        <property name="readTheBook" ref="readBook"></property>
+        <property name="feedDog" ref="feedDog"></property>
+        <property name="doHW" ref="HW"></property>
+        <property name="firstMessage" value="inner"></property>
+        <property name="lastMessage" value="inner"></property>
+    </bean>
+</beans>
