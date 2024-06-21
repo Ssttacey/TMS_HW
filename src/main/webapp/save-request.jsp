@@ -6,8 +6,8 @@
 <h1>Enter your data pls </h1>
 
 <form action="${pageContext.request.contextPath}/servlet" method="post">
-    <input name="nameInput" placeholder="name"/>
-    <input name="emailInput" placeholder="email"/>
+    <input name="name" placeholder="name"/>
+    <input name="email" placeholder="email"/>
     <button type="submit">Submit</button>
 </form>
 </body>
